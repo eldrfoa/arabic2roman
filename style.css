@@ -60,3 +60,10 @@ input[type=text] {
 .converter {
 	display: inline-block
 }
+footer {
+	position: fixed;
+	bottom: 0;
+	margin-bottom: 10px;
+	width: 100%;
+	text-align: center;
+}
