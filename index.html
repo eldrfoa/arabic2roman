@@ -30,16 +30,20 @@
 				var element = document.getElementById("night");
 				if (element.innerHTML === "🌙") {
 					element.innerHTML = "☀️";
-					document.getElementById("body").style.backgroundColor = "#3F3F3F";
 					document.getElementById("body").style.color = "#C9AF95";
-					document.getElementById("Header").style.backgroundColor = "#C9AF95"
+					document.getElementById("body").style.background = "url('bg.png') center fixed #3F3F3F";
+					document.getElementById("Header").style.backgroundColor = "#C9AF95";
 					document.getElementById("linkback").style.color = "#FFE6C7";
+					document.getElementsByTagName("input")[0].style.border = "1px solid #FFE6C7";
+					document.getElementsByTagName("input")[1].style.border = "1px solid #FFE6C7";
 				} else {
 					element.innerHTML = "🌙";
-					document.getElementById("body").style.backgroundColor = "white";
 					document.getElementById("body").style.color = "black"
-					document.getElementById("Header").style.backgroundColor = "#3985C4";
+					document.getElementById("body").style.background = "url('bgb.png') center fixed white";
+					document.getElementById("Header").style.backgroundColor = "#0048EE";
 					document.getElementById("linkback").style.color = "white";
+					document.getElementsByTagName("input")[0].style.border = "1px solid black";
+					document.getElementsByTagName("input")[1].style.border = "1px solid black";
 				}
 				
 			} 
