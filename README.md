@@ -12,4 +12,4 @@ learn basic JS in half a day and rewrite everything. works.
 
 ktnxbye
 
-https://eldrfoa.github.io/arabic2roman/
+https://hidingfox.net/arabic2roman/
